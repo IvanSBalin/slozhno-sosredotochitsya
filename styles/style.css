@@ -2,4 +2,497 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+    min-inline-size: 375px;
+    margin: 0;
+    background-image: var(--bg-image);
+    background-attachment: fixed;
+}
+
+.header {
+    padding: 10px;
+    min-height: 678px;
+}
+
+.decorated-zone {
+    color: var(--accent-color);
+    font-family: var(--accent-font);
+}
+
+.decorated-zone p {
+    padding: 5px 28px 0 0;
+}
+
+.decorate-element {
+    position: relative;
+    text-align: end;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.38;
+}
+
+.ellips::after {
+    content: '';
+    position: absolute;
+    inline-size: 29px;
+    block-size: 29px;
+    margin-block-start: -7.5px;
+    background-image: url("../images/Ellipse 4.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    inset-block-start: 40%;
+    inset-inline-end: -1px;
+}
+
+.header__theme-menu {
+    display: grid;
+    justify-content: end;
+    gap: 13px;
+}
+
+.header__theme-menu-list {
+    color: var(--accent-color);
+    font-family: var(--accent-font);
+    font-size: 1.2rem;
+    padding: 30px 12px 0 0;
+    gap: 13px;
+}
+
+.header__theme-menu-item {
+    padding-top: 10px;
+}
+
+.header__theme-menu-button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.header__logo {
+    color: #DB00FF;
+    text-shadow: 2px 2px 0px #FF0070;
+    font-size: 116px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5%; /* 95.7px */
+    text-align: left;
+    padding: 70px 0 55px 0;
+}
+
+.main {
+    padding: 35px 10px;
+}
+
+.main__content {
+
+}
+
+.foundation-link {
+    text-decoration: none;
+    text-shadow: #FF0070 3px 2px 1px;
+}
+
+.title-decor {
+    background-color: var(--accent-color);
+}
+
+.content__title {
+    color: var(--accent-color);
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.3;
+    padding-top: 0px;
+}
+
+.content__block {
+    color: #F1B2CE;
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.main__gallery {
+    display: block;
+}
+
+.paragraph__title {
+    font-family: var(--accent-font);
+    color: var(--title-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.content__paragraph {
+    color: var(--text-color);
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+.content__text-block {
+    padding: 20px 0 30px 0;
+}
+
+.content__text-block h {
+    padding: 20px 0 30px 0;
+}
+
+.content__text-block h4 {
+    font-family: var(--accent-font);
+    color: var(--title-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    align-items: end;
+}
+
+.additional__indentation {
+    margin-bottom: 20px;
+}
+
+.gallery__list li{
+    padding-block-end: 5px;
+}
+
+.gallery__item {
+    display: block;
+}
+
+.gallery__picture {
+    inline-size: 100%;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--accent-font);
+    padding-block: 10px;
+    color: var(--text-color);
+    min-height: 667px;
+}
+
+.footer__logo {
+    color: #DB00FF;
+    text-shadow: 2px 2px 0px #FF0070;
+    font-size: 116px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5%; /* 95.7px */
+    text-align: center;
+}
+
+.decorate-top::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid #FF0070;
+    border-right: 1px solid #FF0070;
+    inset-block-start: 10px;
+    inset-inline-end: 10px;
+}
+
+.decorate-bottom::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid #FF0070;
+    border-left: 1px solid #FF0070;
+    inset-block-end: 10px;
+    inset-inline-start: 10px;
+}
+
+.header .decorate-top::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid #FF0070;
+    border-right: 1px solid #FF0070;
+    inset-block-start: 14px;
+    inset-inline-end: 10px;
+}
+
+
+.header .decorate-bottom::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid #FF0070;
+    border-left: 1px solid #FF0070;
+    inset-block-end: 160px;
+    inset-inline-start: 10px;
+}
+
+@media (768px <= width < 1024px) {
+    .page {
+        /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+        min-inline-size: 768px;
+        margin: 0;
+        background-image: var(--bg-image);
+        background-attachment: fixed;
+    }
+
+    .header {
+        display: block;
+        padding: 0;
+        min-height: 984px;
+    }
+
+    .decorated-zone p {
+        padding:20px 50px 0 0;
+    }
+
+    .ellips::after {
+        content: '';
+        position: absolute;
+        inline-size: 29px;
+        block-size: 29px;
+        margin-block-start: -7.5px;
+        background-image: url("../images/Ellipse 4.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        inset-block-start: 60%;
+        inset-inline-end: 18px;
+    }
+
+    .header__theme-menu-list {
+        color: var(--accent-color);
+        font-family: var(--accent-font);
+        font-size: 1.2rem;
+        padding: 133px 30px 0 0;
+    }
+
+    .header__theme-menu-item {
+        padding-top: 11px;
+    }
+
+    .header .decorate-top::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-top: 1px solid #FF0070;
+        border-right: 1px solid #FF0070;
+        inset-block-start: 20px;
+        inset-inline-end: 20px;
+    }
+
+    .header .decorate-bottom::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-bottom: 1px solid #FF0070;
+        border-left: 1px solid #FF0070;
+        inset-block-end: -180px;
+        inset-inline-start: 20px;
+    }
+
+    .header__logo {
+        color: #DB00FF;
+        text-shadow: 2px 2px 0px #FF0070;
+        font-size: 116px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 82.5%; /* 95.7px */
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        padding: 179px 0 165px 0;
+    }
+
+    .right-side {
+        display: flex;
+        justify-content: right;
+        padding:0 20px 0 20px;
+    }
+
+    .half{
+        width: 50%;
+    }
+
+    .main {
+        display: block;
+        padding: 100px 20px 0 20px;
+    }
+
+    .main__content-two-columns {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+    }
+
+    .content__title{
+        padding-bottom: 20px;
+    }
+
+    .three-line-title {
+        width: 30%;
+    }
+
+    .main__content-one-columns {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 60px 0 60px 0;
+    }
+
+    .content__text-block {
+        padding: 0;
+    }
+
+    .gallery__picture {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img-first {
+        grid-column: 1/3;
+    }
+
+    .img-second {
+        grid-row: span 2;
+    }
+
+    .img-thirds {
+        grid-row: span 2;
+    }
+
+    .img-fifth {
+        grid-column: 2/4;
+    }
+
+    .main__gallery {
+        padding: 60px 0 0 0;
+    }
+
+    .gallery__list {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px 25px;
+        padding: 10px 0 60px 0;
+    }
+
+    .gallery__list li{
+        padding-block-end: 0;
+    }
+
+    .footer{
+        min-height: 1024px;
+    }
+
+    .footer__logo {
+        color: #DB00FF;
+        text-shadow: 2px 2px 0px #FF0070;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 82.5%; /* 95.7px */
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .decorate-top::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-top: 1px solid #FF0070;
+        border-right: 1px solid #FF0070;
+        inset-block-start: 12px;
+        inset-inline-end: 20px;
+    }
+
+    .decorate-bottom::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-bottom: 1px solid #FF0070;
+        border-left: 1px solid #FF0070;
+        inset-block-end: 25px;
+        inset-inline-start: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page {
+        /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+        min-inline-size: 768px;
+        margin: 0;
+        background-image: var(--bg-image);
+        background-attachment: fixed;
+        padding: 20px;
+        display: grid;
+    }
+
+    .header {
+        min-height: 984px;
+        position: relative;
+    }
+
+    .header .decorate-top::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-top: 1px solid #FF0070;
+        border-right: 1px solid #FF0070;
+        inset-block-start: 10px;
+        inset-inline-end: 20px;
+    }
+
+
+    .header .decorate-bottom::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-bottom: 1px solid #FF0070;
+        border-left: 1px solid #FF0070;
+        inset-block-end: 172px;
+        inset-inline-start: 120px;
+    }
+
+    .decorate-top::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-top: 1px solid #FF0070;
+        border-right: 1px solid #FF0070;
+        inset-block-start: 10px;
+        inset-inline-end: 10px;
+    }
+
+    .decorate-bottom::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-bottom: 1px solid #FF0070;
+        border-left: 1px solid #FF0070;
+        inset-block-end: 10px;
+        inset-inline-start: 10px;
+    }
 }
