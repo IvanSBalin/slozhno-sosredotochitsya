@@ -540,30 +540,8 @@
         height: 25px;
         border-bottom: 1px solid #FF0070;
         border-left: 1px solid #FF0070;
-        inset-block-end: 30px;
+        inset-block-end: 35px;
         inset-inline-start: 20px;
-    }
-
-    .decorate-top::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        border-top: 1px solid #FF0070;
-        border-right: 1px solid #FF0070;
-        inset-block-start: 10px;
-        inset-inline-end: 10px;
-    }
-
-    .decorate-bottom::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        border-bottom: 1px solid #FF0070;
-        border-left: 1px solid #FF0070;
-        inset-block-end: 10px;
-        inset-inline-start: 10px;
     }
 
     .header__logo {
@@ -589,7 +567,7 @@
 
     .main {
         display: inline-block;
-        padding: 30px 20px 0 20px;
+        padding: 25px 20px 0 20px;
     }
 
     .main__content-two-columns {
@@ -693,7 +671,7 @@
         height: 25px;
         border-bottom: 1px solid #FF0070;
         border-left: 1px solid #FF0070;
-        inset-block-end: 20px;
+        inset-block-end: 22px;
         inset-inline-start: 20px;
     }
 }
