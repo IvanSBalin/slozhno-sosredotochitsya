@@ -124,10 +124,6 @@
     line-height: 1.3;
 }
 
-.main__gallery {
-    display: block;
-}
-
 .paragraph__title {
     font-family: var(--accent-font);
     color: var(--title-color);
@@ -171,6 +167,7 @@
 }
 
 .main__gallery {
+    display: block;
     padding-top: 30px;
 }
 
