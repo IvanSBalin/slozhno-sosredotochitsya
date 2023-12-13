@@ -10,7 +10,7 @@
 
 .header {
     padding: 10px;
-    min-height: 678px;
+    height: 100vh;
 }
 
 .decorated-zone {
@@ -263,7 +263,7 @@
     .header {
         display: block;
         padding: 0;
-        min-height: 984px;
+        height: 100vh;
     }
 
     .decorated-zone p {
@@ -462,7 +462,7 @@
 
     .header {
         padding: 0;
-        min-height: 728px;
+        height: 100vh;
         position: relative;
     }
 
