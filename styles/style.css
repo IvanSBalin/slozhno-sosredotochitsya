@@ -589,7 +589,7 @@
 
     .main {
         display: inline-block;
-        padding: 80px 20px 0 20px;
+        padding: 30px 20px 0 20px;
     }
 
     .main__content-two-columns {
@@ -661,7 +661,7 @@
     }
 
     .footer {
-        min-height: 768px;
+        min-height: 760px;
     }
 
     .footer__logo {
@@ -693,7 +693,7 @@
         height: 25px;
         border-bottom: 1px solid #FF0070;
         border-left: 1px solid #FF0070;
-        inset-block-end: 25px;
+        inset-block-end: 20px;
         inset-inline-start: 20px;
     }
 }
