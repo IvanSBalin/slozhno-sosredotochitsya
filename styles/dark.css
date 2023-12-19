@@ -14,5 +14,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    .header__theme-menu-button_type_dark{
+        outline: 1px solid var(--accent-color);
+        outline-offset: 1px;
+    }
 }
 

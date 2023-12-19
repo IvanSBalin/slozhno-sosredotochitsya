@@ -20,4 +20,9 @@
     .decorate-element {
         visibility: hidden;
     }
+
+    .header__theme-menu-button_type_light {
+        outline: 1px solid var(--accent-color);
+        outline-offset: 1px;
+    }
 }

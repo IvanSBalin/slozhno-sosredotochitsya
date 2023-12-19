@@ -10,7 +10,7 @@
 
 .header {
     padding: 10px;
-    height: 100vh;
+    height: calc(100vh - 75px);
 }
 
 .decorated-zone {
@@ -41,7 +41,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    inset-block-start: 20%;
+    inset-block-start: 22%;
     inset-inline-end: -1px;
 }
 
@@ -60,6 +60,7 @@
 }
 
 .header__theme-menu-item {
+    text-align: center;
     padding-top: 10px;
 }
 
@@ -82,6 +83,28 @@
     line-height: 82.5%; /* 95.7px */
     text-align: left;
     padding: 70px 0 35px 0;
+}
+
+.header .decorate-top::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid #FF0070;
+    border-right: 1px solid #FF0070;
+    inset-block-start: 10px;
+    inset-inline-end: 10px;
+}
+
+.header .decorate-bottom::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid #FF0070;
+    border-left: 1px solid #FF0070;
+    inset-block-end: 125px;
+    inset-inline-start: 10px;
 }
 
 .main {
@@ -191,7 +214,7 @@
     font-family: var(--accent-font);
     padding-block: 10px;
     color: var(--text-color);
-    height: 100vh;
+    height: calc(100vh - 110px);
 }
 
 .footer__logo {
@@ -222,29 +245,7 @@
     height: 25px;
     border-bottom: 1px solid #FF0070;
     border-left: 1px solid #FF0070;
-    inset-block-end: 10px;
-    inset-inline-start: 10px;
-}
-
-.header .decorate-top::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-top: 1px solid #FF0070;
-    border-right: 1px solid #FF0070;
-    inset-block-start: 10px;
-    inset-inline-end: 10px;
-}
-
-.header .decorate-bottom::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-bottom: 1px solid #FF0070;
-    border-left: 1px solid #FF0070;
-    inset-block-end: 165px;
+    inset-block-end: 15px;
     inset-inline-start: 10px;
 }
 
@@ -260,7 +261,7 @@
     .header {
         display: block;
         padding: 0;
-        height: 100vh;
+        height: calc(100vh - 15px);
     }
 
     .decorated-zone p {
@@ -310,7 +311,7 @@
         height: 25px;
         border-bottom: 1px solid #FF0070;
         border-left: 1px solid #FF0070;
-        inset-block-end: -235px;
+        inset-block-end: -220px;
         inset-inline-start: 20px;
     }
 
@@ -410,7 +411,7 @@
     }
 
     .footer {
-        height: 100vh;
+        height: calc(100vh + 240px);
     }
 
     .footer__logo {
