@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Сложно сосредоточиться</title>
-    <meta name="color-scheme" content="dark light" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="icon" href="./images/favicon.ico" sizes="any" />
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+    <meta name="color-scheme" content="dark light"/>
+    <link rel="stylesheet" href="./fonts/fonts.css"/>
+    <link rel="stylesheet" href="./styles/globals.css"/>
+    <link rel="stylesheet" href="./styles/variables.css"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/dark.css"/>
+    <link rel="stylesheet" href="./styles/light.css"/>
+    <link rel="icon" href="./images/favicon.ico" sizes="any"/>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml"/>
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png"/>
   </head>
   <body class="page">
     <header class="header decorated-zone">
-          <p class="decorate-element">
-          REC<span class="ellips"></span>
-          </p>
-        <nav class="header__theme-menu">
+      <p class="decorate-element">
+        REC<span class="circle"></span>
+      </p>
+      <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
+                    class="header__theme-menu-button header__theme-menu-button_type_light"
             >
               День
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
+                    class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+                    disabled
             >
               Авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
+                    class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
               Неон
             </button>
           </li>
         </ul>
-        </nav>
-      <h1 class="header__logo">
-        <span class="decorate-top"></span>
+      </nav>
+      <h1 class="logo header-logo-position">
+        <span class="decorate-top" aria-hidden="true"></span>
         no focus
-        <span class="decorate-bottom"></span>
+        <span class="decorate-bottom" aria-hidden="true"></span>
       </h1>
       <div class="right-side">
-        <h3 class="paragraph__title title-decor half">
-          Что делать, когда не можешь делать ничего <br>
-          Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-        </h3>
+        <p class="paragraph__title half">
+          Что делать, когда не можешь
+          <span class="paragraph__title-second-row">делать ничего</span>
+          <span class="paragraph__title-additional-row">Или почему нам так сложно сконцентрироваться,</span>
+          особенно когда очень надо
+        </p>
       </div>
     </header>
     <main class="main">
@@ -64,15 +66,17 @@
         <h2 class="content__title">
           Почему сосредоточиться так сложно
         </h2>
-        <div class="content__text-block">
+        <article class="content__text-block">
           <h3 class="paragraph__title title-decor">Многозадачность</h3>
           <p class="content__paragraph">
-          Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность,
-          когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует.
-          Исследователи <a href="https://dana.org/article/multicosts-of-multitasking/" class="foundation-link"> выяснили</a>,
-          что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле
-          внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин —
-          «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
+            Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность,
+            когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не
+            существует.
+            Исследователи <a href="https://dana.org/article/multicosts-of-multitasking/" class="foundation-link">
+            выяснили</a>,
+            что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле
+            внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин —
+            «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
           </p>
           <h3 class="paragraph__title title-decor">Дофамин</h3>
           <p class="content__paragraph">
@@ -82,13 +86,13 @@
             смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы чувствуем удовольствие. Получается
             замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь.
           </p>
-        </div>
+        </article>
       </section>
       <section class="main__content-one-columns add-columns">
         <h2 class="content__title cut-line-title">
           Что снижает концентрацию внимания?
         </h2>
-        <div class="content__text-block">
+        <article class="content__text-block">
           <h3 class="paragraph__title title-decor">Многозадачность</h3>
           <p class="content__paragraph">
             Как концентрация может снижаться из-за… концентрации? Любая стрессовая ситуация
@@ -96,8 +100,8 @@
             опасности. Например, читать новости вместо работы. Но быть собранными всё время — невозможно. Концентрация —
             мышца, и она может не выдержать, если не давать ей отдохнуть.
           </p>
-        </div>
-        <div class="content__text-block">
+        </article>
+        <article class="content__text-block">
           <h3 class="paragraph__title title-decor">Еда</h3>
           <p class="content__paragraph">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию и помогают ему
@@ -105,8 +109,8 @@
             «углеводные качели»: как только действие «быстрых углеводов» заканчивается, мы чувствуем усталость и
             сонливость. И хотим ещё больше быстрых углеводов.
           </p>
-        </div>
-        <div class="content__text-block">
+        </article>
+        <article class="content__text-block">
           <h3 class="paragraph__title title-decor">Гаджеты</h3>
           <p class="content__paragraph paragraph-two">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в наушниках — подкаст, а на компьютере фоном —
@@ -115,13 +119,13 @@
             и получается, что чем больше времени мы проводим в гаджетах, тем больше времени затем нужно, чтобы вернуться
             к работе.
           </p>
-        </div>
+        </article>
       </section>
       <section class="main__content-two-columns">
         <h2 class="content__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
         </h2>
-        <div class="content__text-block">
+        <article class="content__text-block">
           <h3 class="paragraph__title title-decor additional__indentation">
             5 простых (на самом деле не очень) советов
           </h3>
@@ -148,9 +152,11 @@
           </h4>
           <p class="content__paragraph">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="foundation-link">показал</a>
-            , что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается.
-            Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="foundation-link">показал,</a>
+            что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она
+            наоборот понижается.
+            Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и
+            он будет лучше
             работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
           <h4 class="paragraph__title title-decor">
@@ -169,63 +175,63 @@
             нескольких минут или даже секунд. А вот интересная книга способна затянуть и на несколько часов и круто
             тренирует направленное внимание.
           </p>
-        </div>
+        </article>
       </section>
       <section class="main__gallery">
-        <h3 class="paragraph__title title-decor">
+        <h2 class="paragraph__title title-decor">
           А можно в картинках?
-        </h3>
+        </h2>
         <ul class="gallery__list">
           <li class="gallery__item img-first">
-          <img    src="./images/sunset.png"
-                  loading="lazy"
-                  class="gallery__picture"
-                  srcset="./images/sunset.png 1x, ./images/sunset.png 2x"
-                  alt="Закат солнца за горы, море и чайки"
-          />
+            <img src="./images/sunset.png"
+                 loading="lazy"
+                 class="gallery__picture"
+                 srcset="./images/sunset.png 1x, ./images/sunset.png 2x"
+                 alt="Закат солнца за горы, море и чайки"
+            />
           </li>
           <li class="gallery__item img-second">
-          <img    src="./images/ice-cream.png"
-                  loading="lazy"
-                  class="gallery__picture"
-                  srcset="./images/ice-cream.png 1x, ./images/ice-cream.png 2x"
-                  alt="Шарики мороженное в плошке, украшенные киви, клубникой, кремом
+            <img src="./images/ice-cream.png"
+                 loading="lazy"
+                 class="gallery__picture"
+                 srcset="./images/ice-cream.png 1x, ./images/ice-cream.png 2x"
+                 alt="Шарики мороженное в плошке, украшенные киви, клубникой, кремом
                   вафельными трубочками"
-          />
+            />
           </li>
           <li class="gallery__item img-thirds">
-          <img    src="./images/tape.png"
-                  loading="lazy"
-                  class="gallery__picture"
-                  srcset="./images/tape.png 1x, ./images/tape.png 2x"
-                  alt="Аудио кассета"
-          />
+            <img src="./images/tape.png"
+                 loading="lazy"
+                 class="gallery__picture"
+                 srcset="./images/tape.png 1x, ./images/tape.png 2x"
+                 alt="Аудио кассета"
+            />
           </li>
           <li class="gallery__item img-fourth">
-          <img    src="./images/books.png"
-                  loading="lazy"
-                  class="gallery__picture"
-                  srcset="./images/books.png 1x, ./images/books.png 2x"
-                  alt="Книги сложенные стопкой"
-          />
+            <img src="./images/books.png"
+                 loading="lazy"
+                 class="gallery__picture"
+                 srcset="./images/books.png 1x, ./images/books.png 2x"
+                 alt="Книги сложенные стопкой"
+            />
           </li>
           <li class="gallery__item img-fifth">
-          <img    src="./images/street.png"
-                  loading="lazy"
-                  class="gallery__picture"
-                  srcset="./images/street.png 1x, ./images/street.png 2x"
-                  alt="Пустая улица"
-          />
+            <img src="./images/street.png"
+                 loading="lazy"
+                 class="gallery__picture"
+                 srcset="./images/street.png 1x, ./images/street.png 2x"
+                 alt="Пустая улица"
+            />
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__logo">
+      <h2 class="logo footer-logo-position">
         <span class="decorate-top"></span>
         focus
         <span class="decorate-bottom"></span>
-      </p>
+      </h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

@@ -17,7 +17,8 @@
 
     .header__theme-menu-button_type_dark{
         outline: 1px solid var(--accent-color);
-        outline-offset: 1px;
+        outline-offset: -2px;
+        border: 2px solid #2E9AFF;;
     }
 }
 

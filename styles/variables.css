@@ -3,10 +3,11 @@
   и их переопределение под различные устройства
 */
 :root {
-    --main-font: raleway;
-    --accent-font: 'IBM Plex Mono';
+    --main-font: 'IBM Plex mono', 'Arial', 'Helvetica', sans-serif;
+    --accent-font: 'IBM Plex Mono', 'Arial', 'Helvetica', sans-serif;
     --bg-image: url(../images/cover-image-dark.png);
     --accent-color: #FF0070;
+    --logo-color: #DB00FF;
     --text-color: #F1B2CE;
     --title-color: #000028;
 }
