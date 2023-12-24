@@ -218,7 +218,7 @@
     margin-bottom: 30px;
 }
 
-.main__content-one-columns .content__title{
+.main__content-one-columns .content__title {
     margin-bottom: 20px;
 }
 
@@ -471,11 +471,11 @@
         grid-template-columns:  8fr 1fr;
     }
 
-    .decorated-zone p{
+    .decorated-zone p {
         padding: 9px 30px 0 0;
     }
 
-    .decorated-zone .right-side p{
+    .decorated-zone .right-side p {
         padding: 0 0 0 0;
     }
 
@@ -566,7 +566,7 @@
         background-color: var(--accent-color);
     }
 
-    .paragraph__title-second-row{
+    .paragraph__title-second-row {
         display: inline-block;
         max-width: 300px;
     }
