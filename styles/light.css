@@ -20,13 +20,24 @@
     --sub-title-color: #353430;
     --shadow-color: #FF0070;
     --decorate-color: #353430;
-
-    .decorate-element {
-        visibility: hidden;
-    }
+    --element-on-page: hidden;
 
     .header__theme-menu-button_type_light {
         outline: 1px solid var(--text-color);
         outline-offset: -1px;
     }
+}
+
+@media (prefers-color-scheme: light) {
+    --main-font: 'IBM Plex mono', 'Arial', 'Helvetica', sans-serif;
+    --accent-font: 'IBM Plex Mono', 'Arial', 'Helvetica', sans-serif;
+    --bg-image: url(../images/cover-image-light.png);
+    --accent-color: #FFC2E6;
+    --logo-color: #FFC2E6;
+    --text-color: #353430;
+    --title-color: #353430;
+    --sub-title-color: #353430;
+    --shadow-color: #FF0070;
+    --decorate-color: #353430;
+    --element-on-page: hidden;
 }

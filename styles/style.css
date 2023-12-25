@@ -32,6 +32,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.38;
+    visibility: var(--element-on-page);
 }
 
 .circle::after {
@@ -86,12 +87,12 @@ button:hover {
     outline-offset: -1px;
 }
 
-button:focus-visible     {
-    outline: 1px solid var(--title-color);
-    outline-offset: -1px;
+button:focus-visible {
+    outline: none;
+    border-bottom: 1px solid var(--title-color);
 }
 
-.header__theme-menu-button_type_auto {
+.header__theme-menu-button_type_auto:checked {
 
 }
 
@@ -676,3 +677,4 @@ button:focus-visible     {
         text-align: center;
     }
 }
+
