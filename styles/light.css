@@ -12,6 +12,7 @@
 
     --accent-font: 'IBM Plex Mono', monospace;
     --bg-image: url(../images/cover-image-light.png);
+    --bg-color: transparent;
     --accent-color: #FF8DCB;
     --logo-color: #FFC2E6;
     --text-color: #353430;
@@ -30,7 +31,7 @@
     :root {
         --accent-font: 'IBM Plex Mono', monospace;
         --bg-image: url(../images/cover-image-light.png);
-        --bg-color: #FFC2E6;
+        --bg-color: transparent;
         --accent-color: #FFC2E6;
         --logo-color: #FFC2E6;
         --text-color: #353430;

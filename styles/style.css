@@ -5,6 +5,7 @@
     min-inline-size: 375px;
     margin: 0;
     background-image: var(--bg-image);
+    background-color: var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
