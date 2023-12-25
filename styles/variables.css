@@ -4,7 +4,7 @@
 */
 :root {
     --accent-font: 'IBM Plex Mono', monospace;
-    --bg-image: url(../images/cover-image-dark.png);
+    --bg-image: url(/images/cover-image-dark.png);
     --accent-color: #FF0070;
     --logo-color: #DB00FF;
     --text-color: #F1B2CE;
