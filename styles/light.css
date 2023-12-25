@@ -21,11 +21,9 @@
     --decorate-color: #353430;
     --element-on-page: hidden;
     --transparency-rate: rgba(50, 49, 45, 0.40);
-
-    .header__theme-menu-button_type_light {
-        outline: 1px solid var(--text-color);
-        outline-offset: -1px;
-    }
+    --button-border-auto: none;
+    --button-border-dark: none;
+    --button-border-light: 1px solid var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,5 +39,8 @@
         --decorate-color: #353430;
         --element-on-page: hidden;
         --transparency-rate: rgba(50, 49, 45, 0.40);
+        --button-border-auto: 1px solid var(--text-color);
+        --button-border-dark: none;
+        --button-border-light: none;
     }
 }
