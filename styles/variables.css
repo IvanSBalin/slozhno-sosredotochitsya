@@ -3,8 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-    --main-font: 'IBM Plex mono', 'Arial', 'Helvetica', sans-serif;
-    --accent-font: 'IBM Plex Mono', 'Arial', 'Helvetica', sans-serif;
+    --accent-font: 'IBM Plex Mono', monospace;
     --bg-image: url(../images/cover-image-dark.png);
     --accent-color: #FF0070;
     --logo-color: #DB00FF;
@@ -14,5 +13,6 @@
     --shadow-color: #FF0070;
     --decorate-color: #FF0070;
     --element-on-page: visible;
+    --transparency-rate: rgba(255, 0, 112, 0.40);
 }
 

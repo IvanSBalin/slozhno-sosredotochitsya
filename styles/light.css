@@ -10,10 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-    --main-font: 'IBM Plex mono', 'Arial', 'Helvetica', sans-serif;
-    --accent-font: 'IBM Plex Mono', 'Arial', 'Helvetica', sans-serif;
+    --accent-font: 'IBM Plex Mono', monospace;
     --bg-image: url(../images/cover-image-light.png);
-    --accent-color: #FFC2E6;
+    --accent-color: #FF8DCB;
     --logo-color: #FFC2E6;
     --text-color: #353430;
     --title-color: #353430;
@@ -21,6 +20,7 @@
     --shadow-color: #FF0070;
     --decorate-color: #353430;
     --element-on-page: hidden;
+    --transparency-rate: rgba(50, 49, 45, 0.40);
 
     .header__theme-menu-button_type_light {
         outline: 1px solid var(--text-color);
@@ -29,15 +29,17 @@
 }
 
 @media (prefers-color-scheme: light) {
-    --main-font: 'IBM Plex mono', 'Arial', 'Helvetica', sans-serif;
-    --accent-font: 'IBM Plex Mono', 'Arial', 'Helvetica', sans-serif;
-    --bg-image: url(../images/cover-image-light.png);
-    --accent-color: #FFC2E6;
-    --logo-color: #FFC2E6;
-    --text-color: #353430;
-    --title-color: #353430;
-    --sub-title-color: #353430;
-    --shadow-color: #FF0070;
-    --decorate-color: #353430;
-    --element-on-page: hidden;
+    :root {
+        --accent-font: 'IBM Plex Mono', monospace;
+        --bg-image: url(../images/cover-image-light.png);
+        --accent-color: #FFC2E6;
+        --logo-color: #FFC2E6;
+        --text-color: #353430;
+        --title-color: #353430;
+        --sub-title-color: #353430;
+        --shadow-color: #FF0070;
+        --decorate-color: #353430;
+        --element-on-page: hidden;
+        --transparency-rate: rgba(50, 49, 45, 0.40);
+    }
 }
