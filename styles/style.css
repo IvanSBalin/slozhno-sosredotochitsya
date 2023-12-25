@@ -104,7 +104,7 @@
     min-height: 117px;
 }
 
-.paragraph__title-second-row{
+.paragraph__title-second-row {
     display: block;
     max-width: 300px;
 }
@@ -165,7 +165,7 @@
 }
 
 .content__title {
-    color: var(--accent-color);
+    color: var(--title-color);
     font-family: var(--accent-font);
     font-size: 18px;
     font-weight: 700;
@@ -193,7 +193,7 @@
 
 .paragraph__title {
     font-family: var(--accent-font);
-    color: var(--title-color);
+    color: var(--sub-title-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -228,7 +228,7 @@
 
 .content__text-block h4 {
     font-family: var(--accent-font);
-    color: var(--title-color);
+    color: var(--sub-title-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -311,7 +311,7 @@
     }
 
     .header__theme-menu-list {
-        color: var(--accent-color);
+        color: var(--decorate-color);
         font-family: var(--accent-font);
         font-size: 18px;
         margin: 85px 20px 0 0;
@@ -326,8 +326,8 @@
         position: absolute;
         width: 25px;
         height: 25px;
-        border-top: 1px solid var(--accent-color);
-        border-right: 1px solid var(--accent-color);
+        border-top: 1px solid var(--decorate-color);
+        border-right: 1px solid var(--decorate-color);
         inset-block-start: 20px;
         inset-inline-end: 20px;
     }
@@ -337,8 +337,8 @@
         position: absolute;
         width: 25px;
         height: 25px;
-        border-bottom: 1px solid var(--accent-color);
-        border-left: 1px solid var(--accent-color);
+        border-bottom: 1px solid var(--decorate-color);
+        border-left: 1px solid var(--decorate-color);
         inset-block-end: 20px;
         inset-inline-start: 20px;
     }
@@ -520,8 +520,8 @@
         position: absolute;
         width: 25px;
         height: 25px;
-        border-top: 1px solid var(--accent-color);
-        border-right: 1px solid var(--accent-color);
+        border-top: 1px solid var(--decorate-color);
+        border-right: 1px solid var(--decorate-color);
         inset-block-start: 19px;
         inset-inline-end: 20px;
     }
@@ -531,8 +531,8 @@
         position: absolute;
         width: 25px;
         height: 25px;
-        border-bottom: 1px solid var(--accent-color);
-        border-left: 1px solid var(--accent-color);
+        border-bottom: 1px solid var(--decorate-color);
+        border-left: 1px solid var(--decorate-color);
         inset-block-end: 20px;
         inset-inline-start: 20px;
     }
