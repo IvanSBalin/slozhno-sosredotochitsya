@@ -19,7 +19,7 @@
 
 .decorated-zone {
     color: var(--accent-color);
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
 }
 
 .decorated-zone p {
@@ -57,7 +57,7 @@
 
 .header__theme-menu-list {
     color: var(--decorate-color);
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     margin-top: 28px;
     gap: 22px;
 }
@@ -197,7 +197,7 @@
 
 .content__title {
     color: var(--title-color);
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
@@ -206,7 +206,7 @@
 
 .content__text-block {
     color: var(--text-color);
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -214,7 +214,7 @@
 }
 
 .paragraph__title {
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     color: var(--sub-title-color);
     font-size: 18px;
     font-style: normal;
@@ -228,7 +228,7 @@
 
 .content__paragraph {
     color: var(--text-color);
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -249,7 +249,7 @@
 }
 
 .content__text-block h4 {
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     color: var(--sub-title-color);
     font-size: 18px;
     font-style: normal;
@@ -291,7 +291,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: var(--accent-font);
+    font-family: var(--main-font);
     padding-block: 10px;
     color: var(--text-color);
     height: 100vh;
@@ -305,7 +305,7 @@
     text-align: center;
 }
 
-@media (768px <= width < 1024px) {
+@media (width >= 768px) {
     .page {
         /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
         min-inline-size: 768px;
@@ -350,7 +350,6 @@
     }
 
     .header-logo-position {
-        word-spacing: 2px;
         margin: 105px 0 125px 0;
     }
 
@@ -358,11 +357,11 @@
         display: flex;
         justify-content: right;
         font-weight: 700;
-        padding-inline-end: 3px;
+        padding-inline-start: 6px;
     }
 
     .half {
-        width: 47%;
+        width: 48%;
     }
 
     .main {
@@ -466,12 +465,11 @@
     .decorate-element {
         position: absolute;
         inset-block-start: 12px;
-        inset-inline-end: 20px;
+        inset-inline-end: 0;
     }
 
     .circle::after {
         inset-block-start: 70%;
-        inset-inline-end: 9px;
     }
 
     .header__theme-menu {
@@ -491,16 +489,6 @@
         display: inline-block;
     }
 
-    .decorate-top::after {
-        inset-block-start: 20px;
-        inset-inline-end: 20px;
-    }
-
-    .decorate-bottom::after {
-        inset-block-end: 19px;
-        inset-inline-start: 20px;
-    }
-
     .logo {
         font-size: 157px;
     }
@@ -514,14 +502,8 @@
     }
 
     .right-side {
-        margin: 77px 20px 0 0;
-        display: flex;
-        justify-content: right;
-        background-color: inherit;
-    }
-
-    .half {
-        width: 49%;
+        margin: 77px 0 0 0;
+        padding-inline-end: 2px;
     }
 
     .paragraph__title-second-row {
@@ -537,14 +519,7 @@
     }
 
     .main__content-two-columns {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
         gap: 10px;
-    }
-
-    .main__content-two-columns .content__text-block {
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .add-columns {
@@ -556,50 +531,14 @@
     .cut-line-title {
         grid-column:1/4 ;
         justify-items: center;
-        width: 30%;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .main__content-one-columns {
-        margin: 40px 0;
     }
 
     .main__gallery {
-        margin: 40px 0 25px;
-        padding: 0;
-    }
-
-    .gallery__picture {
-        width: 100%;
-        height: 100%;
-    }
-
-    .img-first {
-        grid-column: 1/3;
-    }
-
-    .img-second {
-        grid-row: span 2;
-    }
-
-    .img-thirds {
-        grid-row: span 2;
-    }
-
-    .img-fifth {
-        grid-column: 2/4;
+        margin: 40px 0 20px;
     }
 
     .gallery__list {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 20px 23px;
         padding: 10px 0 40px 0;
-    }
-
-    .gallery__list li {
-        padding-block-end: 0;
     }
 
     .footer {
