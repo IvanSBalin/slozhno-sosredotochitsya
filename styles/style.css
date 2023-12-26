@@ -93,22 +93,9 @@
     border-bottom: 1px solid var(--title-color);
 }
 
-.header__theme-menu-button_type_light {
-    outline: var(--button-border-light);
-    outline-offset: -1px;
-}
-
 .header__theme-menu-button_active {
     pointer-events: none;
-}
-
-.header__theme-menu-button_type_auto {
-    outline: var(--button-border-auto);
-    outline-offset: -1px;
-}
-
-.header__theme-menu-button_type_dark {
-    outline: var(--button-border-dark);
+    outline: 1px solid var(--decorate-color);
     outline-offset: -1px;
 }
 

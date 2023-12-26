@@ -21,9 +21,5 @@
     --decorate-color: #FF0070;
     --element-on-page: visible;
     --transparency-rate: rgba(255, 0, 112, 0.40);
-    --button-border: 1px solid var(--accent-color);
-    --button-border-auto: none;
-    --button-border-dark: 1px solid var(--accent-color);
-    --button-border-light: none;
 }
 
