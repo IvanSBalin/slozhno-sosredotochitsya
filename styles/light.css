@@ -21,6 +21,7 @@
     --decorate-color: #353430;
     --element-on-page: hidden;
     --transparency-rate: rgba(50, 49, 45, 0.40);
+    --line-style: -1px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,5 +38,6 @@
         --decorate-color: #353430;
         --element-on-page: hidden;
         --transparency-rate: rgba(50, 49, 45, 0.40);
+        --line-style: -1px;
     }
 }

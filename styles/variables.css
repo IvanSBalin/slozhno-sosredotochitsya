@@ -15,5 +15,6 @@
     --decorate-color: #FF0070;
     --element-on-page: visible;
     --transparency-rate: rgba(255, 0, 112, 0.40);
+    --line-style: -1px;
 }
 

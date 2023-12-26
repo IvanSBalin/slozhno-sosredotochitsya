@@ -82,7 +82,7 @@
 
 .header__theme-menu-button:hover {
     outline: 1px solid var(--transparency-rate);
-    outline-offset: -1px;
+    outline-offset: var(--line-style);
 }
 
 .header__theme-menu-button:focus {
@@ -96,7 +96,7 @@
 .header__theme-menu-button_active {
     pointer-events: none;
     outline: 1px solid var(--decorate-color);
-    outline-offset: -1px;
+    outline-offset: var(--line-style);
 }
 
 .logo {
@@ -175,7 +175,7 @@
 
 .foundation-link:focus-visible {
     outline: 1px solid var(--text-color);
-    outline-offset: -1px;
+    outline-offset: var(--line-style);
 }
 
 .title-decor {
